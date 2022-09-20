@@ -1,0 +1,122 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "header2 header2"
+    "main aside"
+    "footer footer" ;
+    grid-template-rows: 240px 150px 1fr 1fr ;
+    grid-template-columns: 1fr 300px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.container{
+    grid-area: header;
+    background-image:url(./images/Paris.jpg);
+    font-size: 50px;
+    background-position: center;
+    background-repeat:repeat;
+    background-size: contain;
+
+
+}
+header2{
+    grid-area:header2 ;
+    background-color: aliceblue;
+
+
+}
+main{
+    
+    font-size: 30px;
+    grid-area: main;
+    background-color: aliceblue; 
+    color: rebeccapurple;
+}
+aside{
+    grid-area: aside;
+    background-color: aliceblue;
+    font-size: 20px;
+    color: rebeccapurple;
+
+    
+
+}
+footer{
+    grid-area: footer;
+    background-image:url(./images/flagge-frankreich104_1920x1080.jpg);
+    text-align: center;
+    background-position: center;
+}
+#h1{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px ;
+    color: #c1b7ff
+
+    ;
+
+}
+
+#h2{
+    font-size: xx-large;
+    color: #5d5b5b;
+    margin-left: 10px;
+
+}
+
+.Days{
+    position: relative;
+    left: 30px;
+}
+
+
+.asideList{
+    position: sticky;
+    left: 160vh;
+
+
+}
+.mainList{
+    position: relative;
+    left: 1vh;
+}
+
+.img{
+    height: 50vh;
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Days{
+    margin-left: 30px;
+}
+
+
+#contact{
+    text-decoration: none;
+    margin-left: 0px;
+    color: black ; 
+} 
+.contact{
+    text-decoration:none ; 
+    color:#c1b7ff;
+    font-size: 35px;
+} 
+.box{
+    position: relative;
+    list-style-type: none;
+    margin-top: 80px;
+    
+}
+
